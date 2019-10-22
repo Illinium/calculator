@@ -2,9 +2,9 @@ import React from 'react';
 
 import './clearButton.css';
 
-const ClearButton = () => {
+const ClearButton = ({clearHandler}) => {
     return (
-        <div className='clear'>
+        <div className='clear' onClick={clearHandler}>
             <p>Clear</p>
         </div>
     )

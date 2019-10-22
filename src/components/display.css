@@ -4,3 +4,6 @@
     align-items: center;
     font-size: 3em;
 }
+.clear {
+    cursor: pointer;
+}
