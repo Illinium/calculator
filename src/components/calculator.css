@@ -1,0 +1,12 @@
+.calculator {
+    display: grid;
+    grid-template-rows: 1fr 4fr 0.7fr;
+    background-color: gray;
+    width: 400px;
+    height: 600px;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}

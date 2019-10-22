@@ -1,0 +1,10 @@
+.button {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.orange {
+    background-color: orange;
+}
