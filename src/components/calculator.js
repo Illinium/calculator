@@ -7,7 +7,7 @@ import "./calculator.css";
 
 class Calculator extends Component {
   state = {
-    display: "0",
+    display: "",
     action: null,
     firstNumbers: "",
     secondNumbers: "",
