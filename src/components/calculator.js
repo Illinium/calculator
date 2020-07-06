@@ -29,7 +29,7 @@ class Calculator extends Component {
   };
 
   addingNumbers = (number) => {
-    if (isNaN(number)) {
+    if (isNaN(number) && number !== ".") {
       if (this.state.action === null) {
         this.setState({
           action: number,
